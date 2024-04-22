@@ -1,0 +1,49 @@
+.otp-verification{
+    
+    margin:120px 0px;
+}
+.verification{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otp-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.otp-digit{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-size: 50px;
+    padding-left: 35px;
+    border: 2px solid #252525;
+}
+.otp-submit{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.otp-notice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+@media screen and (max-width:859px) {
+    .otp-digit{
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+        padding-left: 10px;
+        border: 2px solid #252525;
+    }
+}

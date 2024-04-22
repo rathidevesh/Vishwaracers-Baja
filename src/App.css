@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+html {
+  scroll-snap-type: y smooth;
+}
+
+  
+/* .chatbot-container {
+
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 999; 
+  
+}
+.chatbot-icon{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+.messageIcon{
+  position: absolute;
+  font-size: 25px;
+  top: 28%;
+  left: 25%;
+  color: #fa5f1a;
+} */
+
+.top-redirector{
+  position: fixed;
+  bottom: 80px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  z-index: 999; /* Ensure it's above other elements on the page */
+}
+.chatbot-container {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  z-index: 999; /* Ensure it's above other elements on the page */
+  
+}
+
+.chatbot-icon {
+  background-color: #fa5f1a; /* Background color for the chat icon */
+  color: white; /* Text color for the chat icon */
+  border: none;
+  border-radius: 50%;
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow to the icon */
+  transition: background-color 0.3s, transform 0.3s;
+  z-index:1999;
+}
+
+.chatbot-icon:hover {
+  background-color: #fa5f1a; /* Change the background color on hover */
+  transform: scale(1.1); /* Add a scaling effect on hover */
+}
+  

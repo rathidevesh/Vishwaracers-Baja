@@ -1,0 +1,14 @@
+.addteamMembers{
+    margin-top: 100px;
+}
+.add-team-members-details{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    margin: 20px;
+}
+.add-member-headline{
+    display: flex;
+    justify-content: center;
+    font-family: 'Phudu', cursive;
+}

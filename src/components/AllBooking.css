@@ -1,0 +1,55 @@
+.allbooking{
+    margin-top: 80px;
+}
+.allbookings-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Phudu', cursive;
+}
+.all-bookings-information{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+}
+.booking-table {
+    display: table;
+    border-collapse: collapse;
+    justify-content: center;
+    width: 100%;
+}
+
+.booking-row {
+    display: table-row;
+}
+
+.booking-cell {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid #252525;
+}
+
+.all-booking-cars-image{
+    width: 25rem;
+    padding: 20px;
+}
+.all-bookings-car-value{
+    width: 25rem;
+    padding: 20px;
+}
+.select-filter{
+    display: flex;
+    justify-content: center;
+}
+.horizontal-division{
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-bar{
+    width: 50%;
+    height: 4px;
+    background-color: #fa5f1a;
+    margin: 20px 0px;
+}

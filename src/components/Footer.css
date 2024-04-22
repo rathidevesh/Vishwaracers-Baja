@@ -1,0 +1,55 @@
+
+
+.footerDetails{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-color: #252525;
+    color:#FFF;
+}
+
+
+.contactUsInfo{
+    margin-right: 100px;
+    margin-bottom: 15px;
+}
+.EmailAddress{
+    margin-right: 100px;
+    margin-bottom: 15px;
+} 
+
+.LocationAddress{
+    
+    margin-bottom: 15px;
+}
+
+.SocialMediaLinksInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    /* background-color: rgba(0, 0, 0, 0.205); */
+    background-color: #252525;
+    color: #FFF
+    ;
+}
+
+.socialIcons{
+    display: flex;
+}
+.socialMediaLinksHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:745px) {
+    .footerDetails{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        /* margin: 20px; */
+    }
+}

@@ -1,0 +1,74 @@
+.booking-details{
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bcbcbc;
+}
+.booking-cost-details-info{
+    display: flex;
+    background-color: #bcbcbc;
+}
+.booking-car-details{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.booking-car-image{
+    width: 25rem;
+    border: 12px solid #252525;
+    
+}
+.booking-car-information{
+    width: 20rem;
+    padding: 20px;
+    border: 2px solid #252525;
+}
+.booking-car-cost{
+    width: 10rem;
+    padding: 20px;
+    background-color: #252525;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.user-bookings-info{
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.user-mobile-number{
+    padding: 20px 0px;
+}
+.mobileLabel{
+    width: 25rem;
+}
+
+@media screen and (max-width:500px) {
+    .booking-cost-details-info{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .booking-car-cost{
+        width: 20rem;
+    }
+    .mobileLabel{
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .booking-car-details{
+        width: 90%;
+    }
+    .booking-car-information{
+        width: 18rem;
+    }
+}

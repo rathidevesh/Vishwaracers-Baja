@@ -1,0 +1,18 @@
+.addblogInfo{
+    margin-top:0px;
+}
+.add-blog-items{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+}
+.upcoming-blog-details{
+    display: flex;
+    justify-content: center;
+    font-family: 'Phudu', cursive;
+}
+#description{
+    width: 100%;
+    min-height:240px;
+}
